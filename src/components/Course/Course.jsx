@@ -35,7 +35,7 @@ const Course = () => {
                 <Tilt options={defaultOptions} style={{ height: 250, width: 250 }} className="">
                     <div className='bg-[#8a8686] h-[300px] w-[300px] rounded-lg shadow-lg flex justify-center items-center'>
                         <div>
-                            <img src="https://portfolio-alpha-seven-58.vercel.app/assets/overview4-88436a05.png" className='h-[150px] w-[100px] ml-10' alt=""/>
+                            <img src="https://portfolio-alpha-seven-58.vercel.app/assets/overview4-88436a05.png" className='h-[150px] w-[100px] ml-12' alt=""/>
                             <p className={`${fontColor} font-bold text-xl`}>Frontend Development</p>
                         </div>
                     </div>
