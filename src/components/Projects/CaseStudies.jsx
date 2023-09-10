@@ -9,44 +9,58 @@ const CaseStudies = () => {
   const fontColor=colorChange((state)=>state.fontColor)
   return (
     <div className={`${lightMode?"bg-white":"bg-black"} p-5 `}>
-        <h1 className={`${fontColor} text-4xl font-bold mb-3`}>Case Studies.</h1>
-        <p className={`${lightMode?"text-black":"text-white"} mb-3 mr-3 font-semibold`}>Following projects showcases my skills and experience through real-world examples of my work.<br/> Each project is briefly described with links to code repositories and live demos in it.<br/> It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively</p>
-        <div className='grid grid-cols-1 lg:grid-cols-2 justify-center items-center lg:flex-row'>
+        <h1 className={`${fontColor} text-4xl font-bold mb-3`}>Projects.</h1>
+        <p className={`${lightMode?"text-black":"text-white"} mb-3 mr-3 font-semibold`}>I did crearte some sample projects.</p>
+        <div className='flex flex-col justify-center items-center'>
             <div className='p-5 w-[75%] bg-[#292727] mb-3 rounded-lg shadow-xl hover:bg-[#000000] duration-1000'>
+                <a href="https://njanardhana.ccbp.tech/">
                 <div className='flex justify-between'>
-                    <h2 className={`${fontColor} font-bold text-2xl`}>Movix Website </h2>
-                    <div className='bg-black rounded-full p-1'>
+                    <h2 className={`${fontColor} font-bold text-2xl`}>Todos Application</h2>
+                    <div className='bg-black rounded-full p-1 h-fit'>
                         <AiFillStar className={`${fontColor} text-3xl animate-spin`}/>
                     </div>
                 </div>
-                <p className='text-lg font-semibold text-white'>A movie review website based on tmdb api the website uses react js for the fronted with the stunning features of skeleton loading , lazy loading.</p>
+                <p className='text-lg font-semibold text-white'></p>
+                <ul className=''>
+                    <li className='text-lg font-semibold text-white'>Streamlined task management through a combination of HTML, CSS, and Bootstrap for an intuitive interface.</li>
+                    <li className='text-lg font-semibold text-white'> Seamless CRUD operations through JavaScript event listeners and dynamic UI updates</li>
+                    <li className='text-lg font-semibold text-white'>Secure task persistence with local storage methods, ensuring that your tasks are always available.</li>
+                </ul>
+                <p className='text-lg font-semibold text-white'>Technologies used: HTML, CSS, JS, Bootstrap</p>
+                </a>
             </div>
             <div className='p-5 w-[75%] bg-[#292727] mb-3 mr-3 rounded-lg shadow-xl hover:bg-[#000000] duration-1000'>
+                <a href='https://foundation-jeze.vercel.app/'>
                 <div className='flex justify-between'>
-                    <h2 className={`${fontColor} font-bold text-2xl`}>Dalli-2 Open Ai </h2>
-                    <div className='bg-black rounded-full p-1'>
+                    <h2 className={`${fontColor} font-bold text-2xl`}>Satya Deep Foundation </h2>
+                    <div className='bg-black rounded-full p-1 h-fit'>
                         <AiFillStar className={`${fontColor} text-3xl animate-spin`}/>
                     </div>
                 </div>
-                <p className='text-lg font-semibold text-white'>OpenAI Stable Diffusion package to create a unique and interactive background effect. This technology has been used to create a captivating visual experience.</p>
+                <p className='text-lg font-semibold text-white'>I have doing internship, they gave a task to create sample foundation website. I did create sample foundation website to collect some content from the internet.</p>
+                </a>
             </div>
             <div className='p-5 w-[75%] bg-[#292727] mb-3 mr-3 rounded-lg shadow-xl hover:bg-[#000000] duration-1000'>
+                <a href='https://contact-list-roan-two.vercel.app/'>
                 <div className='flex justify-between'>
-                    <h2 className={`${fontColor} font-bold text-2xl`}>Youtube Clone </h2>
+                    <h2 className={`${fontColor} font-bold text-2xl`}>Sample Contact List Redux toolkit</h2>
                     <div className='bg-black rounded-full p-1'>
                         <AiFillStar className={`${fontColor} text-3xl animate-spin`}/>
                     </div>
                 </div>
-                <p className='text-lg font-semibold text-white'>Real world youtube clone using react js for frontend and rapid api for data fetching with the Use of trending css library Tailwind css this website a simpler design as youtube.</p>
+                <p className='text-lg font-semibold text-white'>Creating contact list for learning redux and redux toolkit package</p>
+                </a>
             </div>
             <div className='p-5 w-[75%] bg-[#292727] mb-3 mr-3 rounded-lg shadow-xl hover:bg-[#000000] duration-1000'>
+                <a href='https://new-portfolio-vite.vercel.app/'>
                 <div className='flex justify-between'>
-                    <h2 className={`${fontColor} font-bold text-2xl`}>Disney+Clone </h2>
+                    <h2 className={`${fontColor} font-bold text-2xl`}>Portfolio Website </h2>
                     <div className='bg-black rounded-full p-1'>
                         <AiFillStar className={`${fontColor} text-3xl animate-spin`}/>
                     </div>
                 </div>
-                <p className='text-lg font-semibold text-white'>In this website developer has integrated the login functionality by using firebase for backend and react js for frontend development.</p>
+                <p className='text-lg font-semibold text-white'>I did create my Portfolio using React JS . In this portfolio i used zustand library for state management and creating dark and white theme we can select moon icon. Change color of text we can select on the color text at top right og web page.</p>
+                </a>
             </div>
         </div>
     </div>

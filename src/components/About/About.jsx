@@ -15,7 +15,7 @@ const About= () => {
       <Course/>
       <Business/>
       <div className='flex flex-col justify-center items-center'>
-        <h2 className={`${fontColor} font-bold text-3xl `}>Shills & Tools</h2>
+        <h2 className={`${fontColor} font-bold text-3xl `}>Skills & Tools</h2>
         <div className='flex flex-wrap justify-center mt-5 lg:w-[70%]'>
           <button className={`${borderColor} border-[10px] shadow-lg text-red-200 rounded-full ${lightMode?"bg-black":"bg-white"} ${lightMode?"hover:bg-white":"hover:bg-black"} h-[120px] w-[120px] pb-1 mr-2 ml-2 mb-4 duration-1000`}>
             <img src="skills/js.png" className='h-[45px] w-[90px] ml-1' alt=""/>

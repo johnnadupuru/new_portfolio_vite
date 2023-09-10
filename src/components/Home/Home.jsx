@@ -2,12 +2,14 @@ import React from 'react'
 import { colorChange } from '../change/colorChange'
 import { changeBg } from '../change/change'
 import {useTypewriter,Cursor} from "react-simple-typewriter"
-import "./home.css"
+import { useNavigate } from 'react-router-dom'
+import resume from "../janardhan 1.pdf"
 
 const Home = () => {
   const lightMode=changeBg((state)=>state.lightMode)
   const textColor=colorChange((state)=>state.textColor)
   const fontColor=colorChange((state)=>state.fontColor)
+  const router=useNavigate()
 
   const [text]=useTypewriter({
     words:['Full Stack Developer','Frontend Developer','Backend Developer'],
@@ -31,6 +33,13 @@ const Home = () => {
               <h1 className={`font-bold text-3xl ${lightMode?"text-black":"text-white"}`}>Hi,I am <span className={`${fontColor} text-6xl`}>Janardhana</span></h1>
             <div className='inline-flex'>
               <h1 className={`${lightMode?"text-black":"text-white"} text-3xl font-bold`}>I am <span className={`${fontColor}`}>{text}</span><span className={`${fontColor}`}><Cursor/></span> </h1>
+            </div>
+            <div className='mt-5'>
+              <div>
+                <a href={resume} download="resume">
+                  <button type='button' className={`bg-${textColor} text-white font-semibold text-lg pl-2 pr-2 p-1 rounded-lg mr-10`}>Download Resume</button>
+                </a>
+              </div>
             </div>
           </div>
         </div>

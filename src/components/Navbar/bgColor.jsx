@@ -1,5 +1,4 @@
 import React from 'react'
-import {MdOutlineDarkMode} from "react-icons/md"
 import { changeBg } from '../change/change'
 import { colorChange } from '../change/colorChange'
 
@@ -13,8 +12,8 @@ const BgColor = () => {
     const purpleColor=colorChange((state)=>state.purpleColor)
     
   return (
-    <div className={`${lightMode?"bg-white":"bg-black"} flex justify-end transition-all duration-700 lg:mr-[100px]`}>
-        <div className='flex flex-wrap right-0 w-[300px]'>
+    <div className={`${lightMode?"bg-white":"bg-black"} flex justify-end transition-all duration-700 p-2`}>
+        <div className='flex flex-wrap right-0 w-[200px] h-fit'>
             <button onClick={redColor} className='bg-red-600 rounded-full h-4 w-4 lg:h-6 lg:w-6 mr-2' >
             </button>
             <button onClick={blueColor} className='bg-blue-600 rounded-full h-4 w-4 lg:h-6 lg:w-6 mr-2'>

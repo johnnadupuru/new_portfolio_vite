@@ -16,8 +16,8 @@ const Projects = () => {
     <div className={`${lightMode?"bg-white":"bg-black"}  pb-5`}>
         <CaseStudies/>
         <div className='mt-6 px-5 py-5'>
-            <p className={`${lightMode?"text-black":"text-white"} font-semibold`}>WHAT PEOPLE SAY</p>
-            <h2 className={`${fontColor} font-bold text-3xl`}>Testimonials</h2>
+            <p className={`${lightMode?"text-black":"text-white"} font-semibold`}></p>
+            <h2 className={`${fontColor} font-bold text-3xl`}>Education Qualification</h2>
             <center className='mt-5'>
                 <Swiper
                     spaceBetween={30}
@@ -34,57 +34,88 @@ const Projects = () => {
                     className="mySwiper"
                 >
                     <SwiperSlide>
-                        <div className='bg-[#daced2] rounded-xl w-[70%] shadow-zinc-600 flex justify-center items-center p-5'>
-                            <div>
-                                <p className='font-semibold text-[16px]'>"Globallyz is simply the best. Their team is incredibly talented and has a deep understanding of the marketing landscape. They've helped us build our brand from the ground up and have been instrumental in our growth and success."</p>
-                                <div className='flex'>
-                                    <img src="https://media.licdn.com/dms/image/C4D03AQG_yC3CqZN4_Q/profile-displayphoto-shrink_400_400/0/1661936125512?e=1691020800&v=beta&t=k7GnEzITL5DfClf5mCejIStnF909gY7VLjsaMTmNQY8" className='rounded-full h-[100px] mr-3' alt=""/>
-                                    <div className='mt-4'>
-                                        <h3 className={`${fontColor} font-bold text-xl`}>Holden Caulfield</h3>
-                                        <p className='text-black font-semibold text-lg'>UI DEVELOPER</p>
-                                    </div>
+                        <div className='bg-[#daced2] rounded-xl w-[90%] lg:w-[50%] shadow-zinc-600 flex justify-center items-center p-5'>
+                            <div className="w-full">
+                                <div className="flex justify-around items-center p-4">
+                                    <img
+                                    src="https://i.ibb.co/P9X9nWw/2016-02-4-22-43-35-sai-mdhavi-college.gif"
+                                    className="h-[60px] w-[120px] md:h-[100px] md:w-[200px] rounded-full"
+                                    alt="logo-pic"
+                                    />
+                                    <h1 className={`${fontColor} font-bold text-2xl lg:text-5xl`}>Engineering</h1>
+                                </div>
+                                <hr className='h-1 w-full bg-gray-500'/>
+                                <div className="text-left lg:ml-10">
+                                    <p className="font-semibold text-xl">
+                                    <span className="font-bold text-2xl">College Name</span> : Sri Sai Madhavi Institute Of Science And Technology
+                                    </p>
+                                    <p className="font-semibold text-xl">
+                                    <span className="font-bold text-2xl"> Branch</span> : Mechanical
+                                    </p>
+                                    <p className="font-semibold text-xl">
+                                    <span className="font-bold text-2xl">Percentage</span> :65%
+                                    </p>
+                                    <p className="font-semibold text-xl">
+                                    <span className="font-bold text-2xl">Year Of Graduation</span> :2012-2016
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className='bg-[#daced2] rounded-xl w-[70%] shadow-zinc-600 flex justify-center items-center p-5'>
-                            <div>
-                                <p className='font-semibold text-[16px]'>"Globallyz is simply the best. Their team is incredibly talented and has a deep understanding of the marketing landscape. They've helped us build our brand from the ground up and have been instrumental in our growth and success."</p>
-                                <div className='flex'>
-                                    <img src="http://rainbowit.net/themes/imroz/wp-content/uploads/2021/09/team-01.jpg" className='rounded-full h-[100px] mr-3' alt=""/>
-                                    <div className='mt-4'>
-                                        <h3 className={`${fontColor} font-bold text-xl`}>Holden Caulfield</h3>
-                                        <p className='text-black font-semibold text-lg'>UI DEVELOPER</p>
-                                    </div>
+                        <div className='bg-[#daced2] rounded-xl w-fit lg:w-[50%] shadow-zinc-600 flex justify-center items-center p-5'>
+                            <div className="w-full">
+                                <div className="flex justify-around items-center p-4">
+                                    <img
+                                    src="https://i.ibb.co/4tP27SP/images.jpg"
+                                    className="h-[60px] w-[120px] md:h-[100px] md:w-[200px] rounded-full"
+                                    alt="logo-pic"
+                                    />
+                                    <h1 className={`${fontColor} font-bold text-2xl lg:text-5xl`}>Intermediate</h1>
+                                </div>
+                                <hr className='h-1 w-full bg-gray-500'/>
+                                <div className="text-left lg:ml-10">
+                                    <p className="font-semibold text-xl">
+                                    <span className="font-bold text-2xl">College Name</span> : R K Junior College
+                                    </p>
+                                    <p className="font-semibold text-xl">
+                                    <span className="font-bold text-2xl"> Branch</span> : M.P.C
+                                    </p>
+                                    <p className="font-semibold text-xl">
+                                    <span className="font-bold text-2xl">Percentage</span> :87%
+                                    </p>
+                                    <p className="font-semibold text-xl">
+                                    <span className="font-bold text-2xl">Year Of Graduation</span> :2010-2012
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className='bg-[#daced2] rounded-xl w-[70%] shadow-zinc-600 flex justify-center items-center p-5'>
-                            <div>
-                                <p className='font-semibold text-[16px]'>"Globallyz is simply the best. Their team is incredibly talented and has a deep understanding of the marketing landscape. They've helped us build our brand from the ground up and have been instrumental in our growth and success."</p>
-                                <div className='flex'>
-                                    <img src="http://rainbowit.net/themes/imroz/wp-content/uploads/2021/09/team-01.jpg" className='rounded-full h-[100px] mr-3' alt=""/>
-                                    <div className='mt-4'>
-                                        <h3 className={`${fontColor} font-bold text-xl`}>Holden Caulfield</h3>
-                                        <p className='text-black font-semibold text-lg'>UI DEVELOPER</p>
-                                    </div>
+                        <div className='bg-[#daced2] rounded-xl w-[90%] lg:w-[50%] shadow-zinc-600 flex justify-center items-center p-5'>
+                            <div className="w-full">
+                                <div className="flex justify-around items-center p-4">
+                                    <img
+                                    src={'/photos/nxtwave.jpg'}
+                                    className="h-[60px] w-[120px] md:h-[100px] md:w-[200px] rounded-full"
+                                    alt="logo-pic"
+                                    />
+                                    <h1 className={`${fontColor} font-bold text-2xl lg:text-5xl`}>Full Stack Developer</h1>
                                 </div>
-                            </div>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                    <div className='bg-[#daced2] rounded-xl w-[70%] shadow-zinc-600 flex justify-center items-center p-5'>
-                            <div>
-                                <p className='font-semibold text-[16px]'>"Globallyz is simply the best. Their team is incredibly talented and has a deep understanding of the marketing landscape. They've helped us build our brand from the ground up and have been instrumental in our growth and success."</p>
-                                <div className='flex'>
-                                    <img src="https://media.licdn.com/dms/image/C4D03AQF_dETSxGskag/profile-displayphoto-shrink_400_400/0/1651202231057?e=1691020800&v=beta&t=8Ssdpf2-6I5WiiVxded8TTKegVnyU2Njdm9Fx6RXIeo" className='rounded-full h-[100px] mr-3' alt=""/>
-                                    <div className='mt-4'>
-                                        <h3 className={`${fontColor} font-bold text-xl`}>Holden Caulfield</h3>
-                                        <p className='text-black font-semibold text-lg'>UI DEVELOPER</p>
-                                    </div>
+                                <hr className='h-1 w-full bg-gray-500'/>
+                                <div className="text-left lg:ml-10">
+                                    <p className="font-semibold text-xl">
+                                    <span className="font-bold text-2xl">Institute Name</span> : NxtWave 
+                                    </p>
+                                    <p className="font-semibold text-xl">
+                                    <span className="font-bold text-2xl"> Course</span> : Python Full Stack Developer
+                                    </p>
+                                    <p className="font-semibold text-xl">
+                                    <span className="font-bold text-2xl">Skills</span> :HTML, CSS, Bootstrap, JS, Python,ReactJS,NodeJS,ExpressJS,SQL
+                                    </p>
+                                    <p className="font-semibold text-xl">
+                                    <span className="font-bold text-2xl">Start</span> :sep 2022  On Going
+                                    </p>
                                 </div>
                             </div>
                         </div>
