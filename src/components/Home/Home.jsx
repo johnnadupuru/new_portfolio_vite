@@ -28,11 +28,11 @@ const Home = () => {
             <img src={"/photos/janardhana.jpg.png"} className='h-[400px] w-[400px] lg:h-[500px] lg:w-[500px] rounded-3xl shadow-xl' alt=''/>
           </div>
         </div>
-        <div className='flex justify-center items-center h-[400px] lg:h-[100vh] lg:w-1/2 order-1 lg:order-2'>
+        <div className='flex justify-center items-center h-[400px] lg:h-[100vh] lg:w-1/2 order-1 lg:order-2 p-2'>
           <div className={``}>
-              <h1 className={`font-bold text-3xl ${lightMode?"text-black":"text-white"}`}>Hi,I am <span className={`${fontColor} text-6xl`}>Janardhana</span></h1>
+              <h1 className={`font-bold text-3xl ${lightMode?"text-black":"text-white"}`}>Hi,I am <span className={`${fontColor} text-3xl md:text-6xl`}>Janardhana</span></h1>
             <div className='inline-flex'>
-              <h1 className={`${lightMode?"text-black":"text-white"} text-3xl font-bold`}>I am <span className={`${fontColor}`}>{text}</span><span className={`${fontColor}`}><Cursor/></span> </h1>
+              <h1 className={`${lightMode?"text-black":"text-white"} text-2xl md:text-3xl font-bold`}>I am <span className={`${fontColor}`}>{text}</span><span className={`${fontColor}`}><Cursor/></span> </h1>
             </div>
             <div className='mt-5'>
               <div>

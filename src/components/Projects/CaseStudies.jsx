@@ -44,7 +44,7 @@ const CaseStudies = () => {
                 <a href='https://contact-list-roan-two.vercel.app/'>
                 <div className='flex justify-between'>
                     <h2 className={`${fontColor} font-bold text-2xl`}>Sample Contact List Redux toolkit</h2>
-                    <div className='bg-black rounded-full p-1'>
+                    <div className='bg-black rounded-full p-1 h-fit'>
                         <AiFillStar className={`${fontColor} text-3xl animate-spin`}/>
                     </div>
                 </div>
@@ -55,7 +55,7 @@ const CaseStudies = () => {
                 <a href='https://new-portfolio-vite.vercel.app/'>
                 <div className='flex justify-between'>
                     <h2 className={`${fontColor} font-bold text-2xl`}>Portfolio Website </h2>
-                    <div className='bg-black rounded-full p-1'>
+                    <div className='bg-black rounded-full p-1 h-fit'>
                         <AiFillStar className={`${fontColor} text-3xl animate-spin`}/>
                     </div>
                 </div>

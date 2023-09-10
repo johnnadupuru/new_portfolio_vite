@@ -111,7 +111,7 @@ const Projects = () => {
                                     <span className="font-bold text-2xl"> Course</span> : Python Full Stack Developer
                                     </p>
                                     <p className="font-semibold text-xl">
-                                    <span className="font-bold text-2xl">Skills</span> :HTML, CSS, Bootstrap, JS, Python,ReactJS,NodeJS,ExpressJS,SQL
+                                    <span className="font-bold text-2xl">Skills</span> :HTML, CSS, Bootstrap, JS, Python,ReactJS,<br/>NodeJS,ExpressJS,SQL
                                     </p>
                                     <p className="font-semibold text-xl">
                                     <span className="font-bold text-2xl">Start</span> :sep 2022  On Going

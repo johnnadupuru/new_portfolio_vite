@@ -18,17 +18,17 @@ const Business = () => {
         <h1 className={`${fontColor} font-bold text-3xl font-sans`}>Work Experience</h1>
         <p className={`${lightMode?"text-black":"text-white"} text-[20px] font-semibold`}>I have non IT related experience in various compenies and Now i am doing internship in Dignity Of Nobel</p>
         <div className={`flex justify-center overflow-hidden mt-5`}>
-            <div className='lg:hidden w-[70%]'>
+            <div className='lg:hidden w-[80%]'>
                 <Swiper
                     modules={[Navigation, Pagination, Scrollbar, A11y]}
-                    spaceBetween={50}
+                    spaceBetween={20}
                     slidesPerView={1}
                     navigation
                     pagination={{ clickable: true }}
                     scrollbar={{ draggable: true }}
                     >
                     <SwiperSlide>
-                        <div className='group rounded-lg shadow-xl overflow-hidden relative h-[300px] w-[80%] lg:w-[80%]'>
+                        <div className='group rounded-lg shadow-xl overflow-hidden relative h-[300px] w-full lg:w-[80%]'>
                             <div className=''>
                                 <img src={"/photos/Divis.jpg"} className='rounded-lg w-full h-[230px]' alt=""/>
                             </div>
@@ -48,9 +48,9 @@ const Business = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className='group rounded-lg shadow-xl overflow-hidden relative w-[80%] lg:w-[80%]'>
+                        <div className='group rounded-lg shadow-xl overflow-hidden relative h-[300px] w-full lg:w-[80%]'>
                             <div className=''>
-                                <img src={"/photos/sensacore.webp"} className='rounded-lg w-full h-[300px]' alt=""/>
+                                <img src={"/photos/sensacore.webp"} className='rounded-lg w-full h-[230px]' alt=""/>
                             </div>
                             <div className={`absolute rounded-lg top-[200px] group-hover:top-0 w-[100%] h-[100%] duration-1000 bg-white overflow-auto`}>
                                 <div className='flex justify-between w-[100%] p-4'>
@@ -68,9 +68,9 @@ const Business = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                    <div className='group rounded-lg shadow-xl overflow-hidden relative w-[80%] lg:w-[80%]'>
+                    <div className='group rounded-lg shadow-xl overflow-hidden relative h-[300px] w-full lg:w-[80%]'>
                             <div className=''>
-                                <img src={"/photos/tech.jpg"} className='rounded-lg' alt=""/>
+                                <img src={"/photos/tech.jpg"} className='rounded-lg h-[230px] w-full' alt=""/>
                             </div>
                             <div className={`absolute rounded-lg top-[200px] group-hover:top-0 w-[100%] h-[100%] duration-1000 bg-white overflow-auto`}>
                                 <div className='flex justify-between w-[100%] p-4'>
@@ -88,9 +88,9 @@ const Business = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className='group rounded-lg shadow-xl overflow-hidden relative w-[80%] lg:w-[80%]'>
+                        <div className='group rounded-lg shadow-xl overflow-hidden relative h-[300px] w-full lg:w-[80%]'>
                             <div className=''>
-                                <img src={"/photos/dignityOfNobel.jpg"} className='rounded-lg h-[300px]' alt=""/>
+                                <img src={"/photos/dignityOfNobel.jpg"} className='rounded-lg h-[230px]' alt=""/>
                             </div>
                             <div className={`absolute rounded-lg top-[200px] group-hover:top-0 w-[100%] h-[100%] duration-1000 bg-white overflow-auto`}>
                                 <div className='flex justify-between w-[100%] p-4'>
@@ -180,7 +180,7 @@ const Business = () => {
                     <SwiperSlide>
                         <div className='group rounded-lg shadow-xl overflow-hidden relative w-[80%] lg:w-[80%]'>
                             <div className=''>
-                                <img src={"/photos/dignityOfNobel.jpg"} className='rounded-lg h-[300px]' alt=""/>
+                                <img src={"/photos/dignityOfNobel.jpg"} className='rounded-lg w-full h-[300px]' alt=""/>
                             </div>
                             <div className={`absolute rounded-lg top-[200px] group-hover:top-0 w-[100%] h-[100%] duration-1000 bg-white overflow-auto`}>
                                 <div className='flex justify-between w-[100%] p-4'>
