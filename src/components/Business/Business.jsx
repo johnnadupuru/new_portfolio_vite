@@ -90,7 +90,7 @@ const Business = () => {
                     <SwiperSlide>
                         <div className='group rounded-lg shadow-xl overflow-hidden relative h-[300px] w-full lg:w-[80%]'>
                             <div className=''>
-                                <img src={"/photos/dignityOfNobel.jpg"} className='rounded-lg h-[230px]' alt=""/>
+                                <img src={"/photos/dignityOfNobel.jpg"} className='rounded-lg h-[230px] w-full' alt=""/>
                             </div>
                             <div className={`absolute rounded-lg top-[200px] group-hover:top-0 w-[100%] h-[100%] duration-1000 bg-white overflow-auto`}>
                                 <div className='flex justify-between w-[100%] p-4'>
