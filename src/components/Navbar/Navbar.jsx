@@ -16,7 +16,7 @@ const Navbar = () => {
     const bgImage=lightMode?<MdDarkMode />:<MdDarkMode className='text-white'/>
     const color="white"
   return (
-        <div className={` py-3 ${lightMode?"bg-white":"bg-black"} w-[100%]`}>
+        <div className={` py-3 ${lightMode?"bg-white":"bg-black"} w-[100%] `}>
             <div className='flex justify-around lg:justify-between'>
                 <div className={`lg:ml-8 ${lightMode?"bg-black":"bg-white"} rounded-full`}>
                     <NavLink to="/">

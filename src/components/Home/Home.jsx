@@ -3,7 +3,7 @@ import { colorChange } from '../change/colorChange'
 import { changeBg } from '../change/change'
 import {useTypewriter,Cursor} from "react-simple-typewriter"
 import { useNavigate } from 'react-router-dom'
-import resume from "../janardhan 1.pdf"
+import resume from "../janardhana2.pdf"
 
 const Home = () => {
   const lightMode=changeBg((state)=>state.lightMode)

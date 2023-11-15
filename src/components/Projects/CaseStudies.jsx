@@ -12,7 +12,7 @@ const CaseStudies = () => {
         <h1 className={`${fontColor} text-4xl font-bold mb-3`}>Projects.</h1>
         <p className={`${lightMode?"text-black":"text-white"} mb-3 mr-3 text-xl font-semibold`}>I did crearte some sample projects. You can select on click any project and see it.</p>
         <div className='grid grid-cols-1 lg:grid-cols-2 justify-center items-center'>
-            <div className='p-5 lg:w-[90%] lg:h-[200px] w-full bg-[#292727] mb-3 rounded-lg shadow-xl hover:bg-[#000000] duration-1000'>
+            <div className='p-5 lg:w-[90%] lg:h-[200px] w-full bg-[#292727] mb-3 rounded-lg shadow-xl overflow-auto hover:bg-[#000000] duration-1000'>
                 <a href="https://j-mart-ten.vercel.app/">
                 <div className='flex justify-between'>
                     <h2 className={`${fontColor} font-bold text-2xl`}>E-Commerce Website</h2>
