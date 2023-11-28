@@ -48,14 +48,14 @@ const CaseStudies = () => {
                 </a>
             </div>
             <div className='p-5 lg:w-[90%] lg:h-[200px] w-full bg-[#292727] mb-3 mr-3 rounded-lg shadow-xl hover:bg-[#000000] duration-1000'>
-                <a href='https://new-portfolio-vite.vercel.app/'>
+                <a href='https://dignityofnoble.org/'>
                 <div className='flex justify-between'>
-                    <h2 className={`${fontColor} font-bold text-2xl`}>Portfolio Website </h2>
+                    <h2 className={`${fontColor} font-bold text-2xl`}>Dignity of Nobel demo site</h2>
                     <div className='bg-black rounded-full p-1 h-fit'>
                         <AiFillStar className={`${fontColor} text-3xl animate-spin`}/>
                     </div>
                 </div>
-                <p className='text-lg font-semibold text-white'>I did create my Portfolio using React JS . In this portfolio i used zustand library for state management and creating dark and white theme we can select moon icon. Change color of text we can select on the color text at top right og web page.</p>
+                <p className='text-lg font-semibold text-white'>In this project, I developed Digital Plotforms and About Us these pages and I supported to develop many pages.</p>
                 </a>
             </div>
         </div>
