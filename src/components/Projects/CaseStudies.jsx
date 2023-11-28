@@ -55,7 +55,7 @@ const CaseStudies = () => {
                         <AiFillStar className={`${fontColor} text-3xl animate-spin`}/>
                     </div>
                 </div>
-                <p className='text-lg font-semibold text-white'>In this project, I developed Digital Plotforms and About Us these pages and I supported to develop many pages.</p>
+                <p className='text-lg font-semibold text-white'>In this project, I developed Digital Plotforms and About Us these pages and I supported to develop many pages.I did this project when I was working in Dignity of Nobel internship.</p>
                 </a>
             </div>
         </div>
